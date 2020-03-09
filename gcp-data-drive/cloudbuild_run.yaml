@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Switch clone from https://github.com/SureSkills/DIY-Tools.git to
+# https://github.com/GoogleCloudPlatform/DIY-Tools
+
 steps:
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','https://github.com/SureSkills/DIY-Tools.git']
